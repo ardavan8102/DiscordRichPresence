@@ -14,5 +14,8 @@ Citizen.CreateThread(function()
         SetDiscordRichPresenceAssetSmall("logo") -- Logo Koochick Status
         SetDiscordRichPresenceAssetSmallText("Health: "..(GetEntityHealth(player)-100)) -- HP Player
 
+        SetDiscordRichPresenceAction(0, "button_name", "url")
+        SetDiscordRichPresenceAction(1, "button_name", "url")
+
     end
 end)
